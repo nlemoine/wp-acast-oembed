@@ -9,15 +9,15 @@
  * Requires PHP:      7.4
  * Author:            Nicolas Lemoine
  * Author URI:        https://github.com/nlemoine
- * License:           GPL v2 or later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * License:           GPL v3 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       wp-acast-oembed
  * Domain Path:       /languages
  */
 
 namespace n5s\AcastOembed;
 
-const ACAST_PROVIDER_URL = 'https://embed.acast.com/$1';
+const ACAST_PROVIDER_URL = 'https://oembed.acast.com/v1/embed-player';
 
 \wp_oembed_add_provider('#https?://(.+\.)?acast\.com/.*#i', namespace\ACAST_PROVIDER_URL, true);
 

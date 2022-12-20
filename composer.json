@@ -1,0 +1,23 @@
+{
+	"name": "n5s/wp-acast-oembed",
+	"description": "Add Acast oEmbed provider",
+	"license": "GPL v2 or later",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Nicolas Lemoine",
+			"email": "dev@niconico.fr"
+		}
+	],
+	"require-dev": {
+		"symplify/easy-coding-standard": "^11.1"
+	},
+    "scripts": {
+        "lint": [
+          "ecs check"
+        ],
+        "lint:fix": [
+          "ecs check --fix"
+        ]
+      }
+}

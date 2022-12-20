@@ -1,0 +1,36 @@
+{
+	"name": "wp-acast-oembed",
+	"version": "1.0.0",
+	"description": "Adds Acast core/embed variation",
+	"author": "Nicolas Lemoine",
+	"license": "GPL v2",
+	"keywords": [
+		"oembed",
+		"acast",
+		"wordpress",
+		"plugin"
+	],
+	"homepage": "https://github.com/nlemoine/wp-acast-oembed#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nlemoine/wp-acast-oembed.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nlemoine/wp-acast-oembed/issues"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^25.0.0",
+		"webpack-manifest-plugin": "^5.0.0"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start"
+	}
+}

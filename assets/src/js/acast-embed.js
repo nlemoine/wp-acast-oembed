@@ -21,5 +21,8 @@ domReady( () => {
 			providerNameSlug: 'acast',
 			responsive: true,
 		},
+		isActive: ( blockAttributes, variationAttributes ) =>
+			blockAttributes.providerNameSlug ===
+			variationAttributes.providerNameSlug,
 	} );
 } );

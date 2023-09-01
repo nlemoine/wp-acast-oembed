@@ -10,7 +10,7 @@
 		}
 	],
 	"require-dev": {
-		"symplify/easy-coding-standard": "^11.1"
+		"symplify/easy-coding-standard": "^11.1 | ^12"
 	},
 	"scripts": {
 		"lint": [
